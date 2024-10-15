@@ -16,8 +16,14 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from app import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('app.urls')),
+    path('api', views.ChartDataView.as_view()),
 ]
+
+admin.site.site_header = "Admission Project Admin Panel"
+admin.site.site_title = "Admission Admin Portal"
+admin.site.index_title = "Welcome to Admission Shortlisting Portal"

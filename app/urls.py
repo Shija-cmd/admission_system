@@ -1,5 +1,7 @@
 from django.urls import path
 from . import views
+from .views import download_pdf, download_excel
+from .views import download_page
 
 urlpatterns = [
     path('home/', views.index, name = 'index'),
@@ -9,4 +11,7 @@ urlpatterns = [
     path('data/', views.data, name = 'data'),
     path('base/', views.base, name = 'base'),
     path('nav/', views.nav, name = 'nav'),
+    path('download/pdf/', download_pdf, name='download-pdf'),
+    path('download/excel/', download_excel, name='download-excel'),
+    path('download/', download_page, name='download-page'),
 ]
