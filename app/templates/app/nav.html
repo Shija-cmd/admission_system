@@ -5,6 +5,7 @@
         <a class="navbar-brand ml-auto" href="{% url 'data' %}">Add Applicants</a>
         <a class="navbar-brand ml-auto" href="http://127.0.0.1:8000/admin/login/?next=/admin/" >Admin Login</a>
         <a class="navbar-brand ml-auto" href="{% url 'download-page' %}">Downloads</a>
-        <a class="navbar-brand ml-auto" href="{% url 'logout' %}">{{ user }}<br>Logout</a> <img src="{% static 'images/user.png' %}">
+        <a class="navbar-brand ml-auto" >Welcome! {{ user }} </a> <img src="{% static 'images/user.png' %}" class="dropdown">
+        <a class="navbar-brand ml-auto" href="{% url 'logout' %}">Logout</a>
     </div>
 </nav>
