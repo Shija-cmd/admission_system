@@ -44,9 +44,6 @@ INSTALLED_APPS = [
     'app.apps.AppConfig',
     'crispy_forms',
     'crispy_bootstrap5',
-    'crispy_bootstrap4',
-    'admin_interface',
-    'colorfield',
 ]
 
 X_FRAME_OPTIONS='SAMEORIGIN'
@@ -113,7 +110,7 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
-
+# Bootstrap used in the development of the frontend system
 CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
 CRISPY_TEMPLATE_PACK = 'bootstrap5'
 CRISPY_TEMPLATE_PACK = 'bootstrap4'

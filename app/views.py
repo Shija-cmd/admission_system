@@ -12,7 +12,7 @@ from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
 import pandas as pd
 from io import BytesIO  
-
+# functions for all url and actions
 @login_required
 def index(request):
     shortlisted_applicants = Data.objects.all()

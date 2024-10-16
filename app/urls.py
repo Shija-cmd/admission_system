@@ -2,7 +2,7 @@ from django.urls import path
 from . import views
 from .views import download_pdf, download_excel
 from .views import download_page
-
+# Register all urls here
 urlpatterns = [
     path('home/', views.index, name = 'index'),
     path('register/', views.register, name = 'register'),
