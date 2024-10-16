@@ -68,7 +68,7 @@ The system was developed with the aid of Python programming language. The figure
 Generally, this project was a useful experience; I gained new skills, knowledge, and professional exposure to how to solve social problems from my expertise and met with experienced expert personnel for solving social problems, especially in shortlisting postgraduate students. 
 Related to the study I learned more about how to develop a model from machine learning knowledge. This project program gave me insights and motivation to pursue a career in machine learning knowledge and skills.
 # Recommendation
-Institutions and universities have a real-time system for shortlisting students suitable for courses with minor errors but for the computation of large data by machine learning techniques.
+Institutions and universities need to consider implementing real-time systems for shortlisting students who are suitable for courses, allowing for minor errors. However, for handling large datasets, machine learning techniques should be employed, especially in developing countries like Tanzania.
 
 
 
