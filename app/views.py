@@ -56,7 +56,8 @@ def Login(request):
             return redirect('index')
         
         else:
-            return HttpResponse('Error, user does not exist!')
+            html = "<html><h1><center>Error: User does not exist!</center></h1></body></html>"
+            return HttpResponse(html)
         
     return render(request, 'app/login.html', {})
 
